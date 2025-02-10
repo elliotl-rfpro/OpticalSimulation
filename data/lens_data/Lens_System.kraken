@@ -1,0 +1,74 @@
+# Kraken Optical Simulator File
+# Auto-generated from extracted lens data
+
+optical_system "Generated System" {
+    wavelength 0.55  # Default wavelength in micrometers
+    aperture 10  # Example aperture size
+
+    lens "Lens1" {
+        surface 1 radius 28.491 thickness 4.468
+        surface 2 radius 28.491 thickness 4.468
+        material 1.856 abbe 40.104
+    }
+
+    gap thickness 4.373  # Air or stop
+
+    lens "Lens2" {
+        surface 1 radius -34.964 thickness 4.767
+        surface 2 radius -34.964 thickness 4.767
+        material 1.552 abbe 75.495
+    }
+
+    gap thickness 1.251  # Air or stop
+
+    lens "Lens3" {
+        surface 1 radius 24.606 thickness 4.153
+        surface 2 radius 24.606 thickness 4.153
+        material 1.62 abbe 63.395
+    }
+
+    gap thickness 0.1  # Air or stop
+
+    lens "Lens4" {
+        surface 1 radius 11.876 thickness 4.502
+        surface 2 radius 11.876 thickness 4.502
+        material 1.7 abbe 55.459
+    }
+
+    gap thickness 0.0  # Air or stop
+
+    lens "Lens5" {
+        surface 1 radius -64.462 thickness 3.051
+        surface 2 radius -64.462 thickness 3.051
+        material 1.777 abbe 29.735
+    }
+
+    gap thickness 0.935  # Air or stop
+
+    lens "Lens6" {
+        surface 1 radius 18.405 thickness 2.673
+        surface 2 radius 18.405 thickness 2.673
+        material 1.537 abbe 55.707
+    }
+
+    gap thickness 1.317  # Air or stop
+
+    lens "Lens7" {
+        surface 1 radius -36.268 thickness 2.0
+        surface 2 radius -36.268 thickness 2.0
+        material 1.664 abbe 21.213
+    }
+
+    gap thickness 0.203  # Air or stop
+
+    gap thickness 0.4  # Air or stop
+
+    gap thickness 1.76  # Air or stop
+
+    gap thickness 0.3  # Air or stop
+
+    gap thickness 0.04  # Air or stop
+
+    gap thickness 0.0  # Air or stop
+
+}
